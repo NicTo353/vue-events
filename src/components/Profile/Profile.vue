@@ -54,7 +54,7 @@ export default defineComponent({
 	padding: 10px;
 	border-radius: 5px;
 	background-color: #c4c4c4;
-	animation: fadeIn 1s ease;
+	animation: fadeIn 0.2s ease;
 	border: 1px solid #888888;
 }
 
@@ -67,8 +67,6 @@ export default defineComponent({
 	}
 }
 
-.fade-enter {
-	animation: fadeIn 0.2s ease-in;
-}
+
 </style>
 
